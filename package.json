@@ -1,5 +1,5 @@
 {
-  "name": "lol-cowsay",
+  "name": "@muchrm/lol-cowsay",
   "version": "1.0.0",
   "description": "an example project for test run postinstall",
   "main": "index.js",
