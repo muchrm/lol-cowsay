@@ -1,0 +1,24 @@
+{
+  "name": "lol-cowsay",
+  "version": "1.0.0",
+  "description": "an example project for test run postinstall",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx -p lolcatjs -p cowsay -c 'echo \"Golang is the best\" | cowsay | lolcatjs'",
+    "install": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muchrm/lol-cowsay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muchrm/lol-cowsay/issues"
+  },
+  "homepage": "https://github.com/muchrm/lol-cowsay#readme",
+  "dependencies": {
+    "cowsay": "^1.4.0",
+    "lolcatjs": "^2.4.0"
+  }
+}
